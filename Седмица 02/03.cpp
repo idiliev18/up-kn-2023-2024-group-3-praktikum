@@ -6,7 +6,7 @@ int main()
 	float arr[20];
 
 	std::cin >> n;
-	if (n > 0) {
+	if (n > 0  && n <= 20) {
 		for (int i = 0; i < n; i++)
 		{
 			std::cin >> arr[i];
